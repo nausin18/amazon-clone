@@ -80,11 +80,52 @@
     border-bottom-right-radius: 3px;
     color: #0F1111;
 }
-/**box 4 **/
+/**box 4-5 **/
 span {
     font-size: 0.875rem;
 }
-nav-second {
+.nav-second {
     font-size: 0.9375rem;
+    font-weight: 700;
 
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+/** box6 **/
+.nav-cart i {
+    font-size: 30px;
+
+}
+.nav-cart {
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+/** panel **/
+.panel {
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.875rem;
+}
+.panel-deals {
+    font-size: 0.925rem;
+    font-weight: 700;
+}
+/** hero section **/
+.hero-section {
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 600px;
+    
 }
